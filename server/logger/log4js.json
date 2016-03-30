@@ -1,0 +1,10 @@
+{
+  "appenders": [
+    {"type": "console"},
+    {"type": "dateFile", "filename":"logs/debug.log", "pattern": "-yyyy-MM-dd"},
+    {"type": "dateFile", "filename":"logs/info.log", "pattern": "-yyyy-MM-dd"},
+    {"type": "dateFile", "filename":"logs/warn.log", "pattern": "-yyyy-MM-dd"},
+    {"type": "dateFile", "filename":"logs/error.log", "pattern": "-yyyy-MM-dd"}
+  ],
+  "replaceConsole": true
+}
