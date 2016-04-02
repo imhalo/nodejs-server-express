@@ -14,11 +14,15 @@ function prefix(app){
 }
 
 router.get('/', function(req, res, next) {
-  //console.log('8888');
-  logger.info(req.path);
-  logger.error('inde');
-  logger1.info(req.path);
-  logger1.error('inde');
+  console.log('console log');
+  console.info('console info');
+  console.error('console err');
+  logger.info('test log info');
+  logger.error('test log error');
+  logger.debug('test log debug');
+  logger1.info('test log info');
+  logger1.error('test log error');
+  logger1.debug('test log debug');
   res.render('index', { title: 'Express' });
 });
 
