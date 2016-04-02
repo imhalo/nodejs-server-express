@@ -5,3 +5,5 @@
 "use strict"
 
 console.log('baseDao');
+console.log('baseDao');
+console.log('baseDao');
